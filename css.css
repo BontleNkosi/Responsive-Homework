@@ -3,7 +3,21 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 600px) {
+  .container {
+    text-align: center; /* Center the text */
+  }
 
+  .col-6 {
+    display: flex; /* Use Flexbox to center items */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  img {
+    margin: 0 auto; /* Center the image */
+  }
+}
 body {
   margin-top: 100px;
 }
